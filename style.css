@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#eb0e0e 0%, #2f09d9 100%);
+    display: table;
+    width: 100%;
+    height: 100%;   
+}
+
+h1 {
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: serif;
+}
+
+#bio {
+    font-family: 'PT Serif', serif;
+    padding: 100px;
+    margin-top: 340px;
+}
+
+.line {
+    height: 6px;
+    background-color: yellow;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallex-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu{
+    
+    position: fixed;
+    background-color: rgb(4, 4, 107);
+    top: 0px;
+    width:100%;
+    margin-top: 0px;
+    line-height: 2;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(255, 0, 0) !important;
+    font-weight: 900;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: #eb0e0e !important;
+}
+
+#contact{
+    background: blue;
+}
+
+.contract{
+    display: inline;
+}
